@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.display-container {
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 7px;
+    border-radius: 2px;
+}
+
+.display-container input {
+    width: 100%;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    color: #676767;
+}
+
+.display-container button {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.display-container button img {
+    height: 18px;
+    width: 18px;
+}
+
+.input-container {
+    border:  1px solid #ccc;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.length-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.strength-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.indicator {
+    width:1rem;
+    height:1rem;
+    border-radius:50%;
+}
+
+#generateBtn {
+    margin: 10px 0;
+    width: 100%;
+    padding: 7px 0;
+    background: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(28, 77, 255);
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* .copy-msg {
+    position: absolute;
+    background-color: #333333;
+    color: #e2e2e2;
+    font-size: 1rem;
+    top: 12rem;
+    left: 54rem;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    opacity: 0;
+    transform-origin: bottom;
+    transition: all 250ms ease-in-out;
+}
+
+.copy-msg.active {
+    opacity: 1;
+} */
+
+.copy {
+
+}
+
+.copy-done {
+    display: none;
+}
+
+.copy-done.active {
+    display: block;
+}
+
